@@ -1,0 +1,47 @@
+body {
+    background-image: url(blue-background-image.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section {
+    width: 100%;
+    max-width: 500px;
+    background-color: #2e3a6f;
+    border: 5px solid rgb(86, 86, 192);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.contact-form h2, p{
+    color: white;
+}
+
+.contact-form p{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.contact-form .form-control {
+    background-color: #2e3a6f;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 4px solid blue;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.contact-form .btn {
+    background-color: #1a73e8;
+    border: 2px solid white;
+    color: white;
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+}
+
